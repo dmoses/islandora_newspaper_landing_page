@@ -206,7 +206,7 @@ EOQ;
           if (isset($new_object['TN'])) {
             $thumb = $base_url . "/islandora/object/$new_pid/datastream/TN";
             $path =  $base_url . "/islandora/object/$new_pid";
-            $block['content'] = "<div class=\"block-body\"><a href = \"$path\"><img src = \"$thumb\"><br/>$issue_title</a><br/>$history_date_full</div>";
+            $block['content'] = "<div class=\"block-body\"><a href = \"$path\"><img src = \"$thumb\"><br/>$issue_title</a><br/>$history_date_full</div><br/><div class=\"block-body\" style=\"text-align: center\"><a href\"http://peinewspapers.tumblr.com/\"><img scr=\"images/tumblr.png\"></a> <a href\"https://twitter.com/peinewspapers\"><img scr=\"images/twitter.png\"></a> <a href\"https://www.facebook.com/dailynewspaperpei\"><img scr=\"images/facebook.png\"></a></div>";
           }
         }
         else
